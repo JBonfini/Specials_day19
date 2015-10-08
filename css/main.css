@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-    border: border-box;
     width: 1450px;
     margin: auto;
     margin-top: 100px;
@@ -12,7 +11,7 @@ body {
 
 img {
     position: relative;
-    left: 550px;
+    left: 670px;
     bottom: -65px;
 }
 
@@ -28,6 +27,7 @@ img {
 
 #box1 a {
     text-decoration: none;
+    background: #DC2400;
 }
 
 #box2 {
@@ -42,7 +42,8 @@ img {
 }
 
 #box2 a {
-    text-decoration: none;   
+    text-decoration: none;
+    background: #00853E;
 }
 
 #box3 {
@@ -55,7 +56,8 @@ img {
 }
 
 #box3 a {
-    text-decoration: none;   
+    text-decoration: none;
+    background: #008FC4;
 }
 
 #box4 {
@@ -68,7 +70,8 @@ img {
 }
 
 #box4 a {
-    text-decoration: none;   
+    text-decoration: none;
+    background: #595959;
 }
 
 h1 {
@@ -81,25 +84,26 @@ h1 {
 }
 
 #max {
-    background: #E74C3C;
+    background: #DC2400;
     margin-left: -25px;
     margin-right: -25px;
 }
 
+
 #grow {
-    background: #2ECC71;
+    background: #00853E;
     margin-left: -40px;
     margin-right: -40px;
 }
 
 #ramp {
-    background: #3498DB;
+    background: #008FC4;
     margin-left: -25px;
     margin-right: -25px;
 }
 
 #pay_as_you_grow {
-    background: #95A5A6;
+    background: #595959;
     margin-left: -25px;
     margin-right: -25px;
 }
@@ -113,3 +117,9 @@ ul li {
     font-weight: bold;
     font-size: 20px;
 }
+
+.minutes {
+    font-weight: bold;
+    font-size: 30px;
+}
+
