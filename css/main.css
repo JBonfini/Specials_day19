@@ -1,0 +1,115 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    border: border-box;
+    width: 1450px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+img {
+    position: relative;
+    left: 550px;
+    bottom: -65px;
+}
+
+#box1 {
+    width: 300px;
+    border: 2px solid #BDC3C7;
+    padding: 300px 25px 300px 25px;
+    float: left;
+    border-radius: 10px 0 0 10px;
+    height: 0;
+    
+}
+
+#box1 a {
+    text-decoration: none;
+}
+
+#box2 {
+    width: 300px;
+    border: 2px solid #BDC3C7;
+    padding: 300px 40px 300px 40px;
+    float: left;
+    height: 50px;
+    margin-top: -25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #333;
+}
+
+#box2 a {
+    text-decoration: none;   
+}
+
+#box3 {
+    width: 300px;
+    border: 2px solid #BDC3C7;
+    padding: 300px 25px 300px 25px;
+    float: left;
+    height: 0;
+    
+}
+
+#box3 a {
+    text-decoration: none;   
+}
+
+#box4 {
+    width: 300px;
+    border: 2px solid #BDC3C7;
+    padding: 300px 25px 300px 25px;
+    float: left;
+    border-radius: 0 10px 10px 0;
+    height: 0;    
+}
+
+#box4 a {
+    text-decoration: none;   
+}
+
+h1 {
+    margin-top: -280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#max {
+    background: #E74C3C;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+#grow {
+    background: #2ECC71;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+#ramp {
+    background: #3498DB;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+#pay_as_you_grow {
+    background: #95A5A6;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+}
